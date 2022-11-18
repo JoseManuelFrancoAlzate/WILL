@@ -12,6 +12,10 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  var otraVar = numeros => Number.isInteger(numeros)
+  var soloEnteros = array.filter(otraVar);
+
+  return soloEnteros
 }
 
 // No modifiques nada debajo de esta linea //

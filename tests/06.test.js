@@ -3,7 +3,7 @@ const crearClasePersona = require('../06-07-08.js');
   describe('crearClasePersona', function() {
     it('should return a user constructor that correctly builds user objects', function() {
         const Persona = crearClasePersona();
-        const persona = new Persona('toni', 23, ['futbol'], [{nombre: 'martin', edad: 31}]);
+        const persona = new Persona('toni', 23,['futbol'], [{nombre: 'martin', edad: 31}]);
         expect(persona.nombre).toBe('toni');
         expect(persona.edad).toBe(23);
         expect(persona.hobbies).toEqual(['futbol']);

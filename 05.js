@@ -15,6 +15,16 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+let nuevoArray = array.map(function(elementos) {
+
+
+return elementos[propiedad]
+
+});
+
+return nuevoArray
+
+
 }
 
 // No modifiques nada debajo de esta linea //

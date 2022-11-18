@@ -12,7 +12,14 @@ function numeroSimetrico(num) {
   // Ej:
   // numeroSimetrico(11711) devuelve true
 
-  // Tu código:
+  // Tu código: 
+
+var conversion = num.toString().split("").reverse().join("")
+
+Number(conversion)
+
+return conversion == num
+
 
 }
 
